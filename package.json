@@ -1,6 +1,6 @@
 {
   "name": "bank-al-maghrib-exchange-rate",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Official Bank Al-Maghrib (Morocco) daily exchange rates — 28 currencies vs MAD, history since 2000. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bam",
