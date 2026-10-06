@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'MAD', { apiKey: 'art_live_...' });
 {
   bank: 'bam',
   name: 'Bank Al-Maghrib',
-  rate_date: '2026-09-25',   // Bank Al-Maghrib's own publication date
+  rate_date: '2026-10-06',   // Bank Al-Maghrib's own publication date
   source: 'USD',
   target: 'MAD',
-  rate: 9.5965,
+  rate: 9.9694,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bam',
   name: 'Bank Al-Maghrib',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "MAD", "type": "reference", "value": 9.5965 },
+    { "base": "USD", "quote": "MAD", "type": "reference", "value": 9.9694 },
     // … the rest of the published table (28 currencies vs MAD)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bank-al-maghrib-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'MAD', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'MAD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'MAD',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 9.5965, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 9.9694, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
