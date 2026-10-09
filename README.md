@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bank-al-maghrib-exchange-rate.svg)](https://github.com/AllRates-Today/bank-al-maghrib-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bank-al-maghrib-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/MAD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbam%3Fsource%3DUSD%26target%3DMAD&query=%24.rate&label=USD%2FMAD%20published%20by%20Bank%20Al-Maghrib&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bam/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbam%3Fsource%3DUSD%26target%3DMAD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bam/)
 
 **Official Bank Al-Maghrib (Morocco) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank Al-Maghrib itself prints, every business day.**
 
@@ -32,6 +34,49 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank Al-Maghrib table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank Al-Maghrib — 30 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | MAD | reference | 2.708 |
+| AUD | MAD | reference | 6.9208 |
+| BHD | MAD | reference | 26.372 |
+| BRL | MAD | reference | 1.9834 |
+| CAD | MAD | reference | 6.98 |
+| CHF | MAD | reference | 11.931 |
+| CNY | MAD | reference | 1.484 |
+| DKK | MAD | reference | 1.4898 |
+| DZD | MAD | reference | 0.07394 |
+| EGP | MAD | reference | 0.1899 |
+| EUR | MAD | reference | 11.1346 |
+| GBP | MAD | reference | 13.134 |
+| GIP | MAD | reference | 13.134 |
+| INR | MAD | reference | 0.1028 |
+| JOD | MAD | reference | 14.033 |
+| JPY | MAD | reference | 0.062868 |
+| KWD | MAD | reference | 31.994 |
+| LYD | MAD | reference | 1.9292 |
+| MRU | MAD | reference | 0.25137 |
+| NOK | MAD | reference | 1.04 |
+| OMR | MAD | reference | 25.835 |
+| QAR | MAD | reference | 2.7287 |
+| RUB | MAD | reference | 0.1163 |
+| SAR | MAD | reference | 2.6495 |
+| SEK | MAD | reference | 0.99474 |
+| TND | MAD | reference | 3.3083 |
+| TRY | MAD | reference | 0.2021 |
+| USD | MAD | reference | 9.9466 |
+| XOF | MAD | reference | 0.016974 |
+| ZAR | MAD | reference | 0.5974 |
+
+Source: [Official rates published by BAM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bam/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
