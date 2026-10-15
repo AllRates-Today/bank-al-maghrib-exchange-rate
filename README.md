@@ -42,40 +42,40 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Bank Al-Maghrib — 30 rates. Updated 2026-10-14.
+Published **2026-10-14** by Bank Al-Maghrib — 30 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MAD | reference | 2.6557 |
-| AUD | MAD | reference | 6.802 |
-| BHD | MAD | reference | 25.832 |
-| BRL | MAD | reference | 1.9537 |
-| CAD | MAD | reference | 6.8441 |
-| CHF | MAD | reference | 11.713 |
-| CNY | MAD | reference | 1.4572 |
-| DKK | MAD | reference | 1.4599 |
-| DZD | MAD | reference | 0.07251 |
-| EGP | MAD | reference | 0.1847 |
-| EUR | MAD | reference | 10.9133 |
-| GBP | MAD | reference | 12.916 |
-| GIP | MAD | reference | 12.916 |
-| INR | MAD | reference | 0.1024 |
-| JOD | MAD | reference | 13.767 |
-| JPY | MAD | reference | 0.061677 |
-| KWD | MAD | reference | 31.29 |
-| LYD | MAD | reference | 1.9299 |
-| MRU | MAD | reference | 0.24651 |
-| NOK | MAD | reference | 1.0218 |
-| OMR | MAD | reference | 25.336 |
-| QAR | MAD | reference | 2.6759 |
-| RUB | MAD | reference | 0.1161 |
-| SAR | MAD | reference | 2.5972 |
-| SEK | MAD | reference | 0.97635 |
-| TND | MAD | reference | 3.2436 |
-| TRY | MAD | reference | 0.1976 |
-| USD | MAD | reference | 9.7544 |
-| XOF | MAD | reference | 0.016637 |
-| ZAR | MAD | reference | 0.5918 |
+| AED | MAD | reference | 2.6822 |
+| AUD | MAD | reference | 6.89 |
+| BHD | MAD | reference | 26.081 |
+| BRL | MAD | reference | 1.9574 |
+| CAD | MAD | reference | 6.9206 |
+| CHF | MAD | reference | 11.798 |
+| CNY | MAD | reference | 1.4715 |
+| DKK | MAD | reference | 1.4727 |
+| DZD | MAD | reference | 0.07318 |
+| EGP | MAD | reference | 0.1856 |
+| EUR | MAD | reference | 11.0091 |
+| GBP | MAD | reference | 13.035 |
+| GIP | MAD | reference | 13.035 |
+| INR | MAD | reference | 0.1036 |
+| JOD | MAD | reference | 13.901 |
+| JPY | MAD | reference | 0.06213 |
+| KWD | MAD | reference | 31.588 |
+| LYD | MAD | reference | 1.9284 |
+| MRU | MAD | reference | 0.24897 |
+| NOK | MAD | reference | 1.036 |
+| OMR | MAD | reference | 25.588 |
+| QAR | MAD | reference | 2.7023 |
+| RUB | MAD | reference | 0.1173 |
+| SAR | MAD | reference | 2.6239 |
+| SEK | MAD | reference | 0.98569 |
+| TND | MAD | reference | 3.2748 |
+| TRY | MAD | reference | 0.1995 |
+| USD | MAD | reference | 9.8519 |
+| XOF | MAD | reference | 0.016783 |
+| ZAR | MAD | reference | 0.596 |
 
 Source: [Official rates published by BAM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bam/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
