@@ -47,40 +47,39 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-23 by Bank Al-Maghrib — 30 rates. Updated 2026-10-24.</summary>
+<summary>Table as text: published 2026-10-26 by Bank Al-Maghrib — 29 rates. Updated 2026-10-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MAD | reference | 2.6762 |
-| AUD | MAD | reference | 6.8992 |
-| BHD | MAD | reference | 26.062 |
-| BRL | MAD | reference | 1.9484 |
-| CAD | MAD | reference | 7.0174 |
-| CHF | MAD | reference | 11.94 |
-| CNY | MAD | reference | 1.4736 |
-| DKK | MAD | reference | 1.4722 |
-| DZD | MAD | reference | 0.07292 |
-| EGP | MAD | reference | 0.1777 |
-| EUR | MAD | reference | 11.0046 |
-| GBP | MAD | reference | 13.151 |
-| GIP | MAD | reference | 13.151 |
-| INR | MAD | reference | 0.1035 |
-| JOD | MAD | reference | 13.864 |
-| JPY | MAD | reference | 0.062706 |
-| KWD | MAD | reference | 31.642 |
-| LYD | MAD | reference | 1.9291 |
-| MRU | MAD | reference | 0.24841 |
-| NOK | MAD | reference | 1.0515 |
-| OMR | MAD | reference | 25.53 |
-| QAR | MAD | reference | 2.6965 |
-| RUB | MAD | reference | 0.1219 |
-| SAR | MAD | reference | 2.6187 |
-| SEK | MAD | reference | 0.98936 |
-| TND | MAD | reference | 3.2763 |
-| TRY | MAD | reference | 0.1976 |
-| USD | MAD | reference | 9.8296 |
-| XOF | MAD | reference | 0.016776 |
-| ZAR | MAD | reference | 0.593 |
+| AED | MAD | reference | 2.6735 |
+| AUD | MAD | reference | 6.9056 |
+| BHD | MAD | reference | 26.034 |
+| BRL | MAD | reference | 1.9646 |
+| CAD | MAD | reference | 7.0065 |
+| CHF | MAD | reference | 11.893 |
+| CNY | MAD | reference | 1.4724 |
+| DKK | MAD | reference | 1.4725 |
+| DZD | MAD | reference | 0.07284 |
+| EGP | MAD | reference | 0.1753 |
+| EUR | MAD | reference | 11.0062 |
+| GBP | MAD | reference | 13.11 |
+| GIP | MAD | reference | 13.11 |
+| INR | MAD | reference | 0.1031 |
+| JOD | MAD | reference | 13.85 |
+| JPY | MAD | reference | 0.062441 |
+| KWD | MAD | reference | 31.6 |
+| MRU | MAD | reference | 0.2447 |
+| NOK | MAD | reference | 1.0514 |
+| OMR | MAD | reference | 25.505 |
+| QAR | MAD | reference | 2.6939 |
+| RUB | MAD | reference | 0.1217 |
+| SAR | MAD | reference | 2.6165 |
+| SEK | MAD | reference | 0.98827 |
+| TND | MAD | reference | 3.289 |
+| TRY | MAD | reference | 0.1973 |
+| USD | MAD | reference | 9.8199 |
+| XOF | MAD | reference | 0.016779 |
+| ZAR | MAD | reference | 0.5919 |
 
 </details>
 
@@ -353,6 +352,7 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
 - [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
 - [Status](https://allratestoday.com/status)
+- [Postman collection](https://allratestoday.com/postman/)
 - [GitHub](https://github.com/AllRates-Today/bank-al-maghrib-exchange-rate)
 
 ## 📜 License
