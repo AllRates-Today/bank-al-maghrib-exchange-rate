@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-26 by Bank Al-Maghrib — 29 rates. Updated 2026-10-26.</summary>
+<summary>Table as text: published 2026-10-26 by Bank Al-Maghrib — 30 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -68,6 +68,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | JOD | MAD | reference | 13.85 |
 | JPY | MAD | reference | 0.062441 |
 | KWD | MAD | reference | 31.6 |
+| LYD | MAD | reference | 1.5314 |
 | MRU | MAD | reference | 0.2447 |
 | NOK | MAD | reference | 1.0514 |
 | OMR | MAD | reference | 25.505 |
