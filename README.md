@@ -47,40 +47,40 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Bank Al-Maghrib — 30 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Bank Al-Maghrib — 30 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MAD | reference | 2.6823 |
-| AUD | MAD | reference | 6.9239 |
-| BHD | MAD | reference | 26.113 |
-| BRL | MAD | reference | 1.8299 |
-| CAD | MAD | reference | 7.026 |
-| CHF | MAD | reference | 11.891 |
-| CNY | MAD | reference | 1.4774 |
-| DKK | MAD | reference | 1.4699 |
-| DZD | MAD | reference | 0.07301 |
-| EGP | MAD | reference | 0.1755 |
-| EUR | MAD | reference | 10.9865 |
-| GBP | MAD | reference | 13.127 |
-| GIP | MAD | reference | 13.127 |
+| AED | MAD | reference | 2.6835 |
+| AUD | MAD | reference | 6.931 |
+| BHD | MAD | reference | 26.121 |
+| BRL | MAD | reference | 1.8434 |
+| CAD | MAD | reference | 7.0121 |
+| CHF | MAD | reference | 11.87 |
+| CNY | MAD | reference | 1.4783 |
+| DKK | MAD | reference | 1.4672 |
+| DZD | MAD | reference | 0.07295 |
+| EGP | MAD | reference | 0.1756 |
+| EUR | MAD | reference | 10.9657 |
+| GBP | MAD | reference | 13.097 |
+| GIP | MAD | reference | 13.097 |
 | INR | MAD | reference | 0.1035 |
-| JOD | MAD | reference | 13.896 |
-| JPY | MAD | reference | 0.062444 |
+| JOD | MAD | reference | 13.902 |
+| JPY | MAD | reference | 0.062461 |
 | KWD | MAD | reference | 31.675 |
-| LYD | MAD | reference | 1.5364 |
-| MRU | MAD | reference | 0.2455 |
-| NOK | MAD | reference | 1.0579 |
-| OMR | MAD | reference | 25.59 |
-| QAR | MAD | reference | 2.7026 |
-| RUB | MAD | reference | 0.1221 |
-| SAR | MAD | reference | 2.6248 |
-| SEK | MAD | reference | 0.99039 |
-| TND | MAD | reference | 3.2997 |
-| TRY | MAD | reference | 0.1979 |
-| USD | MAD | reference | 9.852 |
-| XOF | MAD | reference | 0.016749 |
-| ZAR | MAD | reference | 0.5911 |
+| LYD | MAD | reference | 1.5371 |
+| MRU | MAD | reference | 0.24561 |
+| NOK | MAD | reference | 1.0567 |
+| OMR | MAD | reference | 25.601 |
+| QAR | MAD | reference | 2.7038 |
+| RUB | MAD | reference | 0.1223 |
+| SAR | MAD | reference | 2.6265 |
+| SEK | MAD | reference | 0.99094 |
+| TND | MAD | reference | 3.3012 |
+| TRY | MAD | reference | 0.1978 |
+| USD | MAD | reference | 9.8564 |
+| XOF | MAD | reference | 0.016718 |
+| ZAR | MAD | reference | 0.5917 |
 
 </details>
 
@@ -245,6 +245,7 @@ Bank Al-Maghrib publishes daily reference exchange rates (cours de référence) 
 
 - Publisher's own page: [Cours de référence](https://www.bkam.ma/Marches/Principaux-indicateurs/Marche-des-changes/Cours-de-change/Cours-de-reference) · [www.bkam.ma](https://www.bkam.ma)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank Al-Maghrib rates page](https://allratestoday.com/central-bank-rates-api/bam/)
+- In the API: usually by **23:20 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
