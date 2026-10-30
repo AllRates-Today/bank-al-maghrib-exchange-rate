@@ -24,63 +24,48 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Bank Al-Maghrib table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bam?source=USD&target=MAD"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bam').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Bank Al-Maghrib table](https://allratestoday.com/api/open/central-bank/bam/table.svg)](https://allratestoday.com/central-bank-rates-api/bam/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank Al-Maghrib — 30 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-29 by Bank Al-Maghrib — 30 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MAD | reference | 2.6835 |
-| AUD | MAD | reference | 6.931 |
-| BHD | MAD | reference | 26.121 |
-| BRL | MAD | reference | 1.8434 |
-| CAD | MAD | reference | 7.0121 |
-| CHF | MAD | reference | 11.87 |
-| CNY | MAD | reference | 1.4783 |
-| DKK | MAD | reference | 1.4672 |
-| DZD | MAD | reference | 0.07295 |
-| EGP | MAD | reference | 0.1756 |
-| EUR | MAD | reference | 10.9657 |
-| GBP | MAD | reference | 13.097 |
-| GIP | MAD | reference | 13.097 |
-| INR | MAD | reference | 0.1035 |
-| JOD | MAD | reference | 13.902 |
-| JPY | MAD | reference | 0.062461 |
-| KWD | MAD | reference | 31.675 |
-| LYD | MAD | reference | 1.5371 |
-| MRU | MAD | reference | 0.24561 |
-| NOK | MAD | reference | 1.0567 |
-| OMR | MAD | reference | 25.601 |
-| QAR | MAD | reference | 2.7038 |
-| RUB | MAD | reference | 0.1223 |
-| SAR | MAD | reference | 2.6265 |
-| SEK | MAD | reference | 0.99094 |
-| TND | MAD | reference | 3.3012 |
-| TRY | MAD | reference | 0.1978 |
-| USD | MAD | reference | 9.8564 |
-| XOF | MAD | reference | 0.016718 |
-| ZAR | MAD | reference | 0.5917 |
+| AED | MAD | reference | 2.6788 |
+| AUD | MAD | reference | 6.9224 |
+| BHD | MAD | reference | 26.078 |
+| BRL | MAD | reference | 1.8387 |
+| CAD | MAD | reference | 7.0314 |
+| CHF | MAD | reference | 11.879 |
+| CNY | MAD | reference | 1.4768 |
+| DKK | MAD | reference | 1.4667 |
+| DZD | MAD | reference | 0.07277 |
+| EGP | MAD | reference | 0.1755 |
+| EUR | MAD | reference | 10.9614 |
+| GBP | MAD | reference | 13.104 |
+| GIP | MAD | reference | 13.104 |
+| INR | MAD | reference | 0.1033 |
+| JOD | MAD | reference | 13.88 |
+| JPY | MAD | reference | 0.062297 |
+| KWD | MAD | reference | 31.609 |
+| LYD | MAD | reference | 1.5344 |
+| MRU | MAD | reference | 0.24519 |
+| NOK | MAD | reference | 1.0596 |
+| OMR | MAD | reference | 25.557 |
+| QAR | MAD | reference | 2.699 |
+| RUB | MAD | reference | 0.1221 |
+| SAR | MAD | reference | 2.6219 |
+| SEK | MAD | reference | 0.9944 |
+| TND | MAD | reference | 3.2824 |
+| TRY | MAD | reference | 0.1974 |
+| USD | MAD | reference | 9.8393 |
+| XOF | MAD | reference | 0.01671 |
+| ZAR | MAD | reference | 0.5915 |
 
 </details>
 
