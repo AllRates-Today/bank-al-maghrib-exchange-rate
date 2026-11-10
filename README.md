@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-05 by Bank Al-Maghrib — 30 rates. Updated 2026-11-06.</summary>
+<summary>Table as text: published 2026-11-05 by Bank Al-Maghrib (the API currently flags this table as stale) — 30 rates. Updated 2026-11-10.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
