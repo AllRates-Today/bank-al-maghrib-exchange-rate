@@ -32,40 +32,40 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-16 by Bank Al-Maghrib — 30 rates. Updated 2026-11-17.</summary>
+<summary>Table as text: published 2026-11-17 by Bank Al-Maghrib — 30 rates. Updated 2026-11-18.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MAD | reference | 2.7127 |
-| AUD | MAD | reference | 6.7304 |
-| BHD | MAD | reference | 26.415 |
-| BRL | MAD | reference | 1.7576 |
-| CAD | MAD | reference | 6.9755 |
-| CHF | MAD | reference | 11.864 |
-| CNY | MAD | reference | 1.4945 |
-| DKK | MAD | reference | 1.4681 |
-| DZD | MAD | reference | 0.07288 |
-| EGP | MAD | reference | 0.1855 |
-| EUR | MAD | reference | 10.9747 |
-| GBP | MAD | reference | 13.153 |
-| GIP | MAD | reference | 13.153 |
-| INR | MAD | reference | 0.1061 |
-| JOD | MAD | reference | 14.05 |
-| JPY | MAD | reference | 0.062452 |
-| KWD | MAD | reference | 31.979 |
-| LYD | MAD | reference | 1.5539 |
-| MRU | MAD | reference | 0.24829 |
-| NOK | MAD | reference | 1.0385 |
-| OMR | MAD | reference | 25.88 |
-| QAR | MAD | reference | 2.7333 |
-| RUB | MAD | reference | 0.1208 |
-| SAR | MAD | reference | 2.655 |
-| SEK | MAD | reference | 0.98875 |
-| TND | MAD | reference | 3.3054 |
+| AED | MAD | reference | 2.7144 |
+| AUD | MAD | reference | 6.7186 |
+| BHD | MAD | reference | 26.427 |
+| BRL | MAD | reference | 1.7224 |
+| CAD | MAD | reference | 6.9737 |
+| CHF | MAD | reference | 11.871 |
+| CNY | MAD | reference | 1.4955 |
+| DKK | MAD | reference | 1.4665 |
+| DZD | MAD | reference | 0.07286 |
+| EGP | MAD | reference | 0.1856 |
+| EUR | MAD | reference | 10.9623 |
+| GBP | MAD | reference | 13.154 |
+| GIP | MAD | reference | 13.154 |
+| INR | MAD | reference | 0.1067 |
+| JOD | MAD | reference | 14.062 |
+| JPY | MAD | reference | 0.062614 |
+| KWD | MAD | reference | 31.986 |
+| LYD | MAD | reference | 1.5548 |
+| MRU | MAD | reference | 0.24844 |
+| NOK | MAD | reference | 1.0346 |
+| OMR | MAD | reference | 25.896 |
+| QAR | MAD | reference | 2.735 |
+| RUB | MAD | reference | 0.1209 |
+| SAR | MAD | reference | 2.6572 |
+| SEK | MAD | reference | 0.98625 |
+| TND | MAD | reference | 3.2948 |
 | TRY | MAD | reference | 0.1977 |
-| USD | MAD | reference | 9.9638 |
-| XOF | MAD | reference | 0.016731 |
-| ZAR | MAD | reference | 0.588 |
+| USD | MAD | reference | 9.97 |
+| XOF | MAD | reference | 0.016712 |
+| ZAR | MAD | reference | 0.5887 |
 
 </details>
 
